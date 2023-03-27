@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@media (min-width: 642px) and (max-width:770px){
+    i{
+      visibility: hidden;  
+    }
+}
+@media (min-width: 642px) and (max-width:770px){
+    .nav{
+      visibility: hidden;  
+    }
+}
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
